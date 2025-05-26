@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+.redbox{
+    width: 400px;
+    height: 400px;
+    background: #ff0000;
+    margin: 0 auto;
+  }
+
+@media screen and (max-width:960px){
+
+  .redbox{
+    width: 200px;
+    height: 200px;
+    background: #ff0000;
+    margin: 0 auto;
+  }
+}
+
+.changebox{
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+  margin: 0 auto;
+}
+
+@media screen and (max-width:960px){
+
+  .changebox{
+    background: #007bff;
+    margin: 0 auto;
+  }
+}
+
+.twobox{
+  display: flex;
+  justify-content: center;
+}
+
+.bluebox{
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+}
+
+.greenbox{
+  width: 300px;
+  height: 300px;
+  background: #22ff00;
+  float: left;
+  margin-left: 150px;
+}
+
+@media screen and (max-width:960px) {
+
+  .bluebox{
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+}
+
+.greenbox{
+  width: 300px;
+  height: 300px;
+  background: #22ff00;
+  float: left;
+  margin-left: 50px;
+}
+}
+
+.twobox2{
+  display: flex;
+  justify-content: center;
+}
+
+.redbox2{
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+}
+
+@media screen and (max-width:960px) {
+
+  .twobox2{
+    display: block;
+  }
+}
+
+.threebox{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.orangebox{
+  width: 300px;
+  height: 300px;
+  background: #ff8400;
+}
+
+@media screen and (max-width:960px) {
+
+  .threebox{
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+}
+}
+
+.threebox2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.A{
+  padding: 150px;
+  background: #00ff51;
+}
+
+.B{
+  padding: 150px;
+  background: #d4ff00;
+}
+
+.C{
+  padding: 150px;
+  background: #ff00e1;
+}
+
+@media screen and (max-width:960px) {
+
+  .A{
+  padding: 150px;
+  background: #00ff51;
+  order: 2;
+}
+
+.B{
+  padding: 150px;
+  background: #d4ff00;
+  order: 3;
+}
+
+.C{
+  padding: 150px;
+  background: #ff00e1;
+  order: 1;
+}
+}
+
+.threebox3{
+  display: flex;
+  justify-content: center;
+}
+
+.redbox3{
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+}
+
+.bluebox2{
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+}
+
+.greenbox2{
+  width: 300px;
+  height: 300px;
+  background: #00ff51;
+}
+
+@media screen and (max-width:960px) {
+  .redbox3{
+    display: none;
+  }
+}
+
+@media screen and (min-width:960px) {
+  .bluebox2{
+    display: none;
+  }
+}
