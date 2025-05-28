@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-.redbox{
+.size-change{
     width: 400px;
     height: 400px;
     background: #ff0000;
@@ -9,7 +9,7 @@
 
 @media screen and (max-width:960px){
 
-  .redbox{
+  .size-change{
     width: 200px;
     height: 200px;
     background: #ff0000;
@@ -17,7 +17,7 @@
   }
 }
 
-.changebox{
+.color-change{
   width: 300px;
   height: 300px;
   background: #ff0000;
@@ -26,24 +26,24 @@
 
 @media screen and (max-width:960px){
 
-  .changebox{
+  .color-change{
     background: #007bff;
     margin: 0 auto;
   }
 }
 
-.twobox{
+.margin-box{
   display: flex;
   justify-content: center;
 }
 
-.bluebox{
+.margin-bluebox{
   width: 300px;
   height: 300px;
   background: #0008ff;
 }
 
-.greenbox{
+.margin-greenbox{
   width: 300px;
   height: 300px;
   background: #22ff00;
@@ -53,13 +53,13 @@
 
 @media screen and (max-width:960px) {
 
-  .bluebox{
+  .margin-bluebox{
   width: 300px;
   height: 300px;
   background: #0008ff;
 }
 
-.greenbox{
+.margin-greenbox{
   width: 300px;
   height: 300px;
   background: #22ff00;
@@ -68,31 +68,49 @@
 }
 }
 
-.twobox2{
+.float-box{
   display: flex;
   justify-content: center;
 }
 
-.redbox2{
+.float-redbox{
   width: 300px;
   height: 300px;
   background: #ff0000;
 }
 
+.float-bluebox{
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+}
+
 @media screen and (max-width:960px) {
 
-  .twobox2{
+  .float-box{
     display: block;
   }
 }
 
-.threebox{
+.flexbox-threebox{
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.orangebox{
+.flexbox-redbox{
+  width: 300px;
+  height: 300px;
+  background: #ff0000;
+}
+
+.flexbox-bluebox{
+  width: 300px;
+  height: 300px;
+  background: #0008ff;
+}
+
+.flexbox-orangebox{
   width: 300px;
   height: 300px;
   background: #ff8400;
@@ -100,86 +118,86 @@
 
 @media screen and (max-width:960px) {
 
-  .threebox{
+  .flexbox-threebox{
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
 }
 }
 
-.threebox2{
+.designation{
   display: flex;
   justify-content: center;
   text-align: center;
 }
 
-.A{
+.designation-A{
   padding: 150px;
   background: #00ff51;
 }
 
-.B{
+.designation-B{
   padding: 150px;
   background: #d4ff00;
 }
 
-.C{
+.designation-C{
   padding: 150px;
   background: #ff00e1;
 }
 
 @media screen and (max-width:960px) {
 
-  .A{
+  .designation-A{
   padding: 150px;
   background: #00ff51;
   order: 2;
 }
 
-.B{
+.designation-B{
   padding: 150px;
   background: #d4ff00;
   order: 3;
 }
 
-.C{
+.designation-C{
   padding: 150px;
   background: #ff00e1;
   order: 1;
 }
 }
 
-.threebox3{
+.hidden-threebox{
   display: flex;
   justify-content: center;
 }
 
-.redbox3{
+.hidden-redbox{
   width: 300px;
   height: 300px;
   background: #ff0000;
 }
 
-.bluebox2{
+.display-bluebox{
   width: 300px;
   height: 300px;
   background: #0008ff;
 }
 
-.greenbox2{
+.display-greenbox{
   width: 300px;
   height: 300px;
   background: #00ff51;
 }
 
 @media screen and (max-width:960px) {
-  .redbox3{
+  .hidden-redbox{
     display: none;
   }
 }
 
 @media screen and (min-width:960px) {
-  .bluebox2{
+  .display-bluebox{
     display: none;
   }
 }
